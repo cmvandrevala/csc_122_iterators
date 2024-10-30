@@ -1,15 +1,15 @@
 #include <iostream>
 #include <iterator>
-#include <set>
+#include <unordered_set>
 
 using namespace std;
 
 int main()
 {
-  set<int> s = {1, 5, 4, 2, 3};
-  set<int>::iterator ptr;
+  unordered_set<int> s = {1, 5, 4, 2, 3};
+  unordered_set<int>::iterator ptr;
 
-  cout << "The set elements are : ";
+  cout << "The unordered set elements are : ";
   for (ptr = s.begin(); ptr != s.end(); ptr++) // Note the change here!
   {
     cout << *ptr << " ";

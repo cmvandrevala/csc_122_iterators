@@ -54,8 +54,4 @@ _deps
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,cmake
 
-1_iterator_on_vector
-2_iterator_on_array
-3_iterator_on_list
-4_iterator_on_set
-5_next_and_prev
+build
