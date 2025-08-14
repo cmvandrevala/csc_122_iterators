@@ -10,7 +10,7 @@ int main()
   vector<int>::iterator ptr;
 
   cout << "The vector elements are: ";
-  for (ptr = ar.begin(); ptr < ar.end(); ptr++)
+  for (ptr = ar.begin(); ptr != ar.end(); ptr++)
   {
     cout << *ptr << " ";
   }

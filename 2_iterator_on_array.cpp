@@ -10,7 +10,7 @@ int main()
   array<int, 5>::iterator ptr;
 
   cout << "The array elements are: ";
-  for (ptr = ar.begin(); ptr < ar.end(); ptr++)
+  for (ptr = ar.begin(); ptr != ar.end(); ptr++)
   {
     cout << *ptr << " ";
   }
